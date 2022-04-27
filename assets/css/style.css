@@ -1,0 +1,84 @@
+*{
+	margin: 0px ;
+	padding: 0px ;
+    box-sizing: border-box;
+	font-family:avenir, sans-serif ;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   /* background-image: url();
+    background-size: cover;
+    background-position: center;  */
+}
+
+a{text-decoration: none;}
+
+.navbar {
+    background-color: #1a1a1a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    color: #fff;
+    padding: 12px;
+}
+.navbar ul li a:hover{
+    background-color: #fff;
+    color: #1a1a1a;
+    border-radius: 4px;
+}
+.active{
+    background-color: #802323;
+    color: #fff;
+    border-radius: 4px;
+}
+
+/*deroulant menu*/
+/*how to make ddrop down menu using*/
+.responsivmenu-sous{
+    display: none;  
+}
+.navbar ul li:hover .responsivmenu-sous {
+    display: block;
+    position: absolute;
+    background: rgb(0, 100, 0);  
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.navbar ul li:hover .responsivmenu-sous ul{
+    display: block;
+    margin: 10px;
+}
+.navbar ul li:hover .responsivmenu-sous ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+/*.responsivmenu-sous{
+    display: flex;
+    flex-flow: column wrap;
+    z-index: 1000;
+}
+
+.responsivmenu-sous li{
+    flex: 1 1 auto;
+    text-align: left;
+}
+.responsivmenu-sous a{
+    padding: 10px;
+    background-color: RGBa(200,200,200,0.8);
+}
+*/

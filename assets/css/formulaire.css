@@ -1,0 +1,50 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    width: 100%;
+    background-color: rgba(220, 220, 0, 0.2);
+    padding: 5px 0px;
+}
+.c100{
+    width: 100%;
+    margin: 20%;
+}
+label{
+    display: inline-block;
+    min-width: 25%;
+}
+input[type=submit]{
+    color: RGB(200, 100, 0);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px ;
+    border: 2px solid RGB(200, 100, 0) ;
+}
+input[type="submit"]:hover{
+    background-color: RGB(200, 100, 0);
+    color: #fff;
+    cursor: pointer ;
+    box-shadow: 0px 0px 5px 0px #777;
+}
+/*
+.formule {
+	width:100% ;
+	margin:0 auto;
+	background-color: yellow ;
+	position: sticky ;       
+	top: 0px ; 
+}
+// width et margin:0  auto pr centrer notre menu(li) ds l'element nav
+//color de fond au menu
+//menu sticky
+// si on souhaite que le menu reste collé en haut de la page
+*/
+
+/*#FF00FF fuchsia ; #OOFFFF aqua ; #00FF00 lime #C0C0C0 silver ; #808080 gray ; #008000 vert ; #800000 marron, #FF00000 red, #000080 navy, #0000FF blue, #008080 , #800080 purple*/
+
+
+
